@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor.csproj", "{CE614962-08DE-451C-A3B3-90ACC3F3DA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorApp", "..\MonitorApp\MonitorApp.csproj", "{FFCBA888-6953-4813-AF63-0801FAACDDDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE614962-08DE-451C-A3B3-90ACC3F3DA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE614962-08DE-451C-A3B3-90ACC3F3DA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE614962-08DE-451C-A3B3-90ACC3F3DA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE614962-08DE-451C-A3B3-90ACC3F3DA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

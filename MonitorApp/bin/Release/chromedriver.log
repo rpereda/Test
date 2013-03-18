@@ -1,0 +1,3099 @@
+[0.001][INFO]:      ChromeDriver 23.0.1240.0 D:\Axcess\Projects\Selenium-WebDriver\WebdriverTest\MonitorApp\bin\Release\chromedriver.exe
+[1.256][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "WINDOWS",
+   "version": ""
+}
+
+[1.261][INFO]:      Launching chrome: "C:\Users\rpereda\AppData\Local\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[2.153][INFO]:      Connected to Chrome successfully. Version: 24.0.1312.57
+[2.158][FINE]:      Command received (/session/08fec1032279e1f8c0292bffe725f602)
+[2.159][FINE]:      Command finished (/session/08fec1032279e1f8c0292bffe725f602) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "24.0.1312.57",
+      "webStorageEnabled": true
+   }
+}
+
+[2.510][FINE]:      Command received (/session/08fec1032279e1f8c0292bffe725f602/url) with params {
+   "url": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[2.510][FINER]:     Waiting for all views to stop loading...
+[2.510][FINER]:     Done waiting for all views to stop loading
+[32.370][FINER]:    Waiting for all views to stop loading...
+[32.376][FINER]:    Done waiting for all views to stop loading
+[32.376][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[32.379][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/execute) with params {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[32.379][FINER]:    Waiting for all views to stop loading...
+[32.380][FINER]:    Done waiting for all views to stop loading
+[32.391][FINER]:    Waiting for all views to stop loading...
+[32.391][FINER]:    Done waiting for all views to stop loading
+[32.391][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/execute) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "complete"
+}
+
+[32.392][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[32.392][FINER]:    Waiting for all views to stop loading...
+[32.393][FINER]:    Done waiting for all views to stop loading
+[32.398][FINER]:    Waiting for all views to stop loading...
+[32.399][FINER]:    Done waiting for all views to stop loading
+[32.399][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639363.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "check#true#1360429816|session#1360429755217-112316#1360431616|PC#1360429755217-112316.17_45#13616..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762670-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431562.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431562.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196162.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429762673'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[32.401][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.401][FINER]:    Waiting for all views to stop loading...
+[32.401][FINER]:    Done waiting for all views to stop loading
+[32.403][FINER]:    Waiting for all views to stop loading...
+[32.403][FINER]:    Done waiting for all views to stop loading
+[32.403][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.403][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.403][FINER]:    Waiting for all views to stop loading...
+[32.404][FINER]:    Done waiting for all views to stop loading
+[32.405][FINER]:    Waiting for all views to stop loading...
+[32.405][FINER]:    Done waiting for all views to stop loading
+[32.405][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.405][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.405][FINER]:    Waiting for all views to stop loading...
+[32.406][FINER]:    Done waiting for all views to stop loading
+[32.407][FINER]:    Waiting for all views to stop loading...
+[32.407][FINER]:    Done waiting for all views to stop loading
+[32.407][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.407][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.407][FINER]:    Waiting for all views to stop loading...
+[32.407][FINER]:    Done waiting for all views to stop loading
+[32.408][FINER]:    Waiting for all views to stop loading...
+[32.408][FINER]:    Done waiting for all views to stop loading
+[32.409][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.409][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.409][FINER]:    Waiting for all views to stop loading...
+[32.409][FINER]:    Done waiting for all views to stop loading
+[32.410][FINER]:    Waiting for all views to stop loading...
+[32.410][FINER]:    Done waiting for all views to stop loading
+[32.410][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.411][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.411][FINER]:    Waiting for all views to stop loading...
+[32.411][FINER]:    Done waiting for all views to stop loading
+[32.412][FINER]:    Waiting for all views to stop loading...
+[32.412][FINER]:    Done waiting for all views to stop loading
+[32.412][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.413][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.413][FINER]:    Waiting for all views to stop loading...
+[32.413][FINER]:    Done waiting for all views to stop loading
+[32.414][FINER]:    Waiting for all views to stop loading...
+[32.414][FINER]:    Done waiting for all views to stop loading
+[32.414][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.415][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.415][FINER]:    Waiting for all views to stop loading...
+[32.415][FINER]:    Done waiting for all views to stop loading
+[32.416][FINER]:    Waiting for all views to stop loading...
+[32.416][FINER]:    Done waiting for all views to stop loading
+[32.416][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.416][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.416][FINER]:    Waiting for all views to stop loading...
+[32.416][FINER]:    Done waiting for all views to stop loading
+[32.418][FINER]:    Waiting for all views to stop loading...
+[32.418][FINER]:    Done waiting for all views to stop loading
+[32.418][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.419][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.419][FINER]:    Waiting for all views to stop loading...
+[32.419][FINER]:    Done waiting for all views to stop loading
+[32.420][FINER]:    Waiting for all views to stop loading...
+[32.420][FINER]:    Done waiting for all views to stop loading
+[32.420][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.422][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[32.422][FINER]:    Waiting for all views to stop loading...
+[32.423][FINER]:    Done waiting for all views to stop loading
+[32.424][FINER]:    Waiting for all views to stop loading...
+[32.424][FINER]:    Done waiting for all views to stop loading
+[32.424][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplication.aspx"
+}
+
+[32.460][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "css selector",
+   "value": "option[value=\"WI\"]"
+}
+
+[32.460][FINER]:    Waiting for all views to stop loading...
+[32.460][FINER]:    Done waiting for all views to stop loading
+[32.471][FINER]:    Waiting for all views to stop loading...
+[32.471][FINER]:    Done waiting for all views to stop loading
+[32.471][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429780195"
+   }
+}
+
+[32.472][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429780195/click)
+[32.472][FINER]:    Waiting for all views to stop loading...
+[32.472][FINER]:    Done waiting for all views to stop loading
+[32.498][FINER]:    Waiting for all views to stop loading...
+[32.498][FINER]:    Done waiting for all views to stop loading
+[32.498][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429780195/click) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[62.506][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/execute) with params {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[62.506][FINER]:    Waiting for all views to stop loading...
+[62.507][FINER]:    Done waiting for all views to stop loading
+[62.517][FINER]:    Waiting for all views to stop loading...
+[62.517][FINER]:    Done waiting for all views to stop loading
+[62.518][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/execute) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "complete"
+}
+
+[62.519][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "tbxLoanAmount"
+}
+
+[62.519][FINER]:    Waiting for all views to stop loading...
+[62.520][FINER]:    Done waiting for all views to stop loading
+[62.545][FINER]:    Waiting for all views to stop loading...
+[62.545][FINER]:    Done waiting for all views to stop loading
+[62.545][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429780196"
+   }
+}
+
+[62.546][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "tbxLoanAmount"
+}
+
+[62.546][FINER]:    Waiting for all views to stop loading...
+[62.546][FINER]:    Done waiting for all views to stop loading
+[62.554][FINER]:    Waiting for all views to stop loading...
+[62.554][FINER]:    Done waiting for all views to stop loading
+[62.555][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429780196"
+   }
+}
+
+[62.556][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429780196/value) with params {
+   "value": [ "3", "0", "0" ]
+}
+
+[62.556][FINER]:    Waiting for all views to stop loading...
+[62.556][FINER]:    Done waiting for all views to stop loading
+[62.663][FINER]:    Waiting for all views to stop loading...
+[62.663][FINER]:    Done waiting for all views to stop loading
+[62.663][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429780196/value) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[62.665][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/screenshot)
+[62.665][FINER]:    Waiting for all views to stop loading...
+[62.666][FINER]:    Done waiting for all views to stop loading
+[63.599][FINER]:    Waiting for all views to stop loading...
+[63.600][FINER]:    Done waiting for all views to stop loading
+[63.600][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/screenshot) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "iVBORw0KGgoAAAANSUhEUgAAA/kAABXvCAIAAAATpjApAAAgAElEQVR4nOzBAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAA..."
+}
+
+[63.818][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "btnNextStep"
+}
+
+[63.819][FINER]:    Waiting for all views to stop loading...
+[63.819][FINER]:    Done waiting for all views to stop loading
+[63.831][FINER]:    Waiting for all views to stop loading...
+[63.831][FINER]:    Done waiting for all views to stop loading
+[63.831][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429780197"
+   }
+}
+
+[63.832][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "btnNextStep"
+}
+
+[63.832][FINER]:    Waiting for all views to stop loading...
+[63.832][FINER]:    Done waiting for all views to stop loading
+[63.841][FINER]:    Waiting for all views to stop loading...
+[63.841][FINER]:    Done waiting for all views to stop loading
+[63.842][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429780197"
+   }
+}
+
+[63.844][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429780197/click)
+[63.844][FINER]:    Waiting for all views to stop loading...
+[63.844][FINER]:    Done waiting for all views to stop loading
+[63.956][FINER]:    Waiting for all views to stop loading...
+[99.875][FINER]:    Done waiting for all views to stop loading
+[99.875][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429780197/click) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[99.878][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[99.878][FINER]:    Waiting for all views to stop loading...
+[99.893][FINER]:    Done waiting for all views to stop loading
+[99.900][FINER]:    Waiting for all views to stop loading...
+[99.900][FINER]:    Done waiting for all views to stop loading
+[99.901][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=3&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639439.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431699|PC#1360429755217-112316.17_45#1361639439|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429838555-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431638.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431638.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196238.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429838558'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[99.902][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[99.902][FINER]:    Waiting for all views to stop loading...
+[99.902][FINER]:    Done waiting for all views to stop loading
+[99.903][FINER]:    Waiting for all views to stop loading...
+[99.903][FINER]:    Done waiting for all views to stop loading
+[99.903][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[99.904][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[99.904][FINER]:    Waiting for all views to stop loading...
+[99.904][FINER]:    Done waiting for all views to stop loading
+[99.905][FINER]:    Waiting for all views to stop loading...
+[99.905][FINER]:    Done waiting for all views to stop loading
+[99.905][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[99.906][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[99.906][FINER]:    Waiting for all views to stop loading...
+[99.906][FINER]:    Done waiting for all views to stop loading
+[99.907][FINER]:    Waiting for all views to stop loading...
+[99.907][FINER]:    Done waiting for all views to stop loading
+[99.908][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[99.908][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[99.908][FINER]:    Waiting for all views to stop loading...
+[99.908][FINER]:    Done waiting for all views to stop loading
+[99.909][FINER]:    Waiting for all views to stop loading...
+[99.910][FINER]:    Done waiting for all views to stop loading
+[99.910][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[99.910][FINE]:     Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[99.910][FINER]:    Waiting for all views to stop loading...
+[99.910][FINER]:    Done waiting for all views to stop loading
+[99.911][FINER]:    Waiting for all views to stop loading...
+[99.912][FINER]:    Done waiting for all views to stop loading
+[99.912][FINE]:     Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.921][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.921][FINER]:   Waiting for all views to stop loading...
+[100.922][FINER]:   Done waiting for all views to stop loading
+[100.924][FINER]:   Waiting for all views to stop loading...
+[100.924][FINER]:   Done waiting for all views to stop loading
+[100.924][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.925][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.925][FINER]:   Waiting for all views to stop loading...
+[100.925][FINER]:   Done waiting for all views to stop loading
+[100.927][FINER]:   Waiting for all views to stop loading...
+[100.927][FINER]:   Done waiting for all views to stop loading
+[100.927][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.928][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.928][FINER]:   Waiting for all views to stop loading...
+[100.929][FINER]:   Done waiting for all views to stop loading
+[100.931][FINER]:   Waiting for all views to stop loading...
+[100.931][FINER]:   Done waiting for all views to stop loading
+[100.931][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.932][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.932][FINER]:   Waiting for all views to stop loading...
+[100.932][FINER]:   Done waiting for all views to stop loading
+[100.934][FINER]:   Waiting for all views to stop loading...
+[100.934][FINER]:   Done waiting for all views to stop loading
+[100.934][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.935][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.935][FINER]:   Waiting for all views to stop loading...
+[100.935][FINER]:   Done waiting for all views to stop loading
+[100.936][FINER]:   Waiting for all views to stop loading...
+[100.937][FINER]:   Done waiting for all views to stop loading
+[100.937][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.937][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.937][FINER]:   Waiting for all views to stop loading...
+[100.938][FINER]:   Done waiting for all views to stop loading
+[100.939][FINER]:   Waiting for all views to stop loading...
+[100.940][FINER]:   Done waiting for all views to stop loading
+[100.940][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.941][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.941][FINER]:   Waiting for all views to stop loading...
+[100.941][FINER]:   Done waiting for all views to stop loading
+[100.944][FINER]:   Waiting for all views to stop loading...
+[100.945][FINER]:   Done waiting for all views to stop loading
+[100.945][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.946][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.946][FINER]:   Waiting for all views to stop loading...
+[100.947][FINER]:   Done waiting for all views to stop loading
+[100.949][FINER]:   Waiting for all views to stop loading...
+[100.950][FINER]:   Done waiting for all views to stop loading
+[100.950][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.953][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[100.953][FINER]:   Waiting for all views to stop loading...
+[100.953][FINER]:   Done waiting for all views to stop loading
+[100.957][FINER]:   Waiting for all views to stop loading...
+[100.958][FINER]:   Done waiting for all views to stop loading
+[100.958][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=3&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639439.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431699|PC#1360429755217-112316.17_45#1361639439|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429838555-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431638.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431638.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196238.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429838558'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[100.960][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.960][FINER]:   Waiting for all views to stop loading...
+[100.960][FINER]:   Done waiting for all views to stop loading
+[100.962][FINER]:   Waiting for all views to stop loading...
+[100.963][FINER]:   Done waiting for all views to stop loading
+[100.963][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.964][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.964][FINER]:   Waiting for all views to stop loading...
+[100.964][FINER]:   Done waiting for all views to stop loading
+[100.967][FINER]:   Waiting for all views to stop loading...
+[100.967][FINER]:   Done waiting for all views to stop loading
+[100.967][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.968][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.968][FINER]:   Waiting for all views to stop loading...
+[100.969][FINER]:   Done waiting for all views to stop loading
+[100.970][FINER]:   Waiting for all views to stop loading...
+[100.970][FINER]:   Done waiting for all views to stop loading
+[100.970][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.971][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.971][FINER]:   Waiting for all views to stop loading...
+[100.971][FINER]:   Done waiting for all views to stop loading
+[100.972][FINER]:   Waiting for all views to stop loading...
+[100.972][FINER]:   Done waiting for all views to stop loading
+[100.972][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.973][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.973][FINER]:   Waiting for all views to stop loading...
+[100.973][FINER]:   Done waiting for all views to stop loading
+[100.974][FINER]:   Waiting for all views to stop loading...
+[100.974][FINER]:   Done waiting for all views to stop loading
+[100.974][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.975][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.975][FINER]:   Waiting for all views to stop loading...
+[100.975][FINER]:   Done waiting for all views to stop loading
+[100.976][FINER]:   Waiting for all views to stop loading...
+[100.977][FINER]:   Done waiting for all views to stop loading
+[100.977][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.977][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.977][FINER]:   Waiting for all views to stop loading...
+[100.977][FINER]:   Done waiting for all views to stop loading
+[100.979][FINER]:   Waiting for all views to stop loading...
+[100.979][FINER]:   Done waiting for all views to stop loading
+[100.979][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.979][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.979][FINER]:   Waiting for all views to stop loading...
+[100.980][FINER]:   Done waiting for all views to stop loading
+[100.981][FINER]:   Waiting for all views to stop loading...
+[100.981][FINER]:   Done waiting for all views to stop loading
+[100.981][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.981][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.981][FINER]:   Waiting for all views to stop loading...
+[100.981][FINER]:   Done waiting for all views to stop loading
+[100.982][FINER]:   Waiting for all views to stop loading...
+[100.983][FINER]:   Done waiting for all views to stop loading
+[100.983][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.983][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.983][FINER]:   Waiting for all views to stop loading...
+[100.983][FINER]:   Done waiting for all views to stop loading
+[100.984][FINER]:   Waiting for all views to stop loading...
+[100.984][FINER]:   Done waiting for all views to stop loading
+[100.984][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.985][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.985][FINER]:   Waiting for all views to stop loading...
+[100.985][FINER]:   Done waiting for all views to stop loading
+[100.986][FINER]:   Waiting for all views to stop loading...
+[100.986][FINER]:   Done waiting for all views to stop loading
+[100.986][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.987][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.987][FINER]:   Waiting for all views to stop loading...
+[100.987][FINER]:   Done waiting for all views to stop loading
+[100.988][FINER]:   Waiting for all views to stop loading...
+[100.988][FINER]:   Done waiting for all views to stop loading
+[100.988][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[100.989][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[100.989][FINER]:   Waiting for all views to stop loading...
+[100.989][FINER]:   Done waiting for all views to stop loading
+[100.990][FINER]:   Waiting for all views to stop loading...
+[100.990][FINER]:   Done waiting for all views to stop loading
+[100.990][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlPrivacyPolicy.aspx?data=uP3trh5jpiwsei%2f90gxFXqByRm%2bNKY%2bdmgNiM5qXp72I%..."
+}
+
+[101.342][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_A1"
+}
+
+[101.342][FINER]:   Waiting for all views to stop loading...
+[101.343][FINER]:   Done waiting for all views to stop loading
+[101.380][FINER]:   Waiting for all views to stop loading...
+[101.380][FINER]:   Done waiting for all views to stop loading
+[101.380][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429849101"
+   }
+}
+
+[101.382][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_A1"
+}
+
+[101.382][FINER]:   Waiting for all views to stop loading...
+[101.382][FINER]:   Done waiting for all views to stop loading
+[101.435][FINER]:   Waiting for all views to stop loading...
+[101.882][FINER]:   Done waiting for all views to stop loading
+[101.882][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429849101"
+   }
+}
+
+[101.883][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429849101/click)
+[101.883][FINER]:   Waiting for all views to stop loading...
+[101.886][FINER]:   Done waiting for all views to stop loading
+[101.949][FINER]:   Waiting for all views to stop loading...
+[108.682][FINER]:   Done waiting for all views to stop loading
+[108.682][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429849101/click) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[108.688][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[108.688][FINER]:   Waiting for all views to stop loading...
+[108.688][FINER]:   Done waiting for all views to stop loading
+[108.692][FINER]:   Waiting for all views to stop loading...
+[108.693][FINER]:   Done waiting for all views to stop loading
+[108.693][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=5&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639452.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431712|PC#1360429755217-112316.17_45#1361639452|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429854027-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431654.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431654.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196254.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429854031'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[108.694][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.694][FINER]:   Waiting for all views to stop loading...
+[108.695][FINER]:   Done waiting for all views to stop loading
+[108.696][FINER]:   Waiting for all views to stop loading...
+[108.696][FINER]:   Done waiting for all views to stop loading
+[108.696][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.697][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.697][FINER]:   Waiting for all views to stop loading...
+[108.697][FINER]:   Done waiting for all views to stop loading
+[108.698][FINER]:   Waiting for all views to stop loading...
+[108.698][FINER]:   Done waiting for all views to stop loading
+[108.698][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.699][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.699][FINER]:   Waiting for all views to stop loading...
+[108.699][FINER]:   Done waiting for all views to stop loading
+[108.701][FINER]:   Waiting for all views to stop loading...
+[108.701][FINER]:   Done waiting for all views to stop loading
+[108.701][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.702][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.702][FINER]:   Waiting for all views to stop loading...
+[108.702][FINER]:   Done waiting for all views to stop loading
+[108.703][FINER]:   Waiting for all views to stop loading...
+[108.703][FINER]:   Done waiting for all views to stop loading
+[108.703][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.704][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.704][FINER]:   Waiting for all views to stop loading...
+[108.704][FINER]:   Done waiting for all views to stop loading
+[108.705][FINER]:   Waiting for all views to stop loading...
+[108.706][FINER]:   Done waiting for all views to stop loading
+[108.706][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.706][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.706][FINER]:   Waiting for all views to stop loading...
+[108.707][FINER]:   Done waiting for all views to stop loading
+[108.708][FINER]:   Waiting for all views to stop loading...
+[108.708][FINER]:   Done waiting for all views to stop loading
+[108.708][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.708][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.708][FINER]:   Waiting for all views to stop loading...
+[108.709][FINER]:   Done waiting for all views to stop loading
+[108.710][FINER]:   Waiting for all views to stop loading...
+[108.710][FINER]:   Done waiting for all views to stop loading
+[108.710][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.711][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.712][FINER]:   Waiting for all views to stop loading...
+[108.712][FINER]:   Done waiting for all views to stop loading
+[108.714][FINER]:   Waiting for all views to stop loading...
+[108.714][FINER]:   Done waiting for all views to stop loading
+[108.714][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.715][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.715][FINER]:   Waiting for all views to stop loading...
+[108.715][FINER]:   Done waiting for all views to stop loading
+[108.717][FINER]:   Waiting for all views to stop loading...
+[108.718][FINER]:   Done waiting for all views to stop loading
+[108.718][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.719][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.719][FINER]:   Waiting for all views to stop loading...
+[108.719][FINER]:   Done waiting for all views to stop loading
+[108.721][FINER]:   Waiting for all views to stop loading...
+[108.721][FINER]:   Done waiting for all views to stop loading
+[108.721][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.722][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.722][FINER]:   Waiting for all views to stop loading...
+[108.723][FINER]:   Done waiting for all views to stop loading
+[108.724][FINER]:   Waiting for all views to stop loading...
+[108.724][FINER]:   Done waiting for all views to stop loading
+[108.724][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.725][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.725][FINER]:   Waiting for all views to stop loading...
+[108.725][FINER]:   Done waiting for all views to stop loading
+[108.726][FINER]:   Waiting for all views to stop loading...
+[108.726][FINER]:   Done waiting for all views to stop loading
+[108.727][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.727][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.728][FINER]:   Waiting for all views to stop loading...
+[108.728][FINER]:   Done waiting for all views to stop loading
+[108.729][FINER]:   Waiting for all views to stop loading...
+[108.729][FINER]:   Done waiting for all views to stop loading
+[108.729][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.732][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[108.732][FINER]:   Waiting for all views to stop loading...
+[108.732][FINER]:   Done waiting for all views to stop loading
+[108.734][FINER]:   Waiting for all views to stop loading...
+[108.734][FINER]:   Done waiting for all views to stop loading
+[108.734][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=5&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639452.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431712|PC#1360429755217-112316.17_45#1361639452|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429854027-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431654.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431654.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196254.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429854031'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[108.735][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.735][FINER]:   Waiting for all views to stop loading...
+[108.736][FINER]:   Done waiting for all views to stop loading
+[108.737][FINER]:   Waiting for all views to stop loading...
+[108.737][FINER]:   Done waiting for all views to stop loading
+[108.737][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.739][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.739][FINER]:   Waiting for all views to stop loading...
+[108.739][FINER]:   Done waiting for all views to stop loading
+[108.740][FINER]:   Waiting for all views to stop loading...
+[108.741][FINER]:   Done waiting for all views to stop loading
+[108.741][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.742][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.742][FINER]:   Waiting for all views to stop loading...
+[108.743][FINER]:   Done waiting for all views to stop loading
+[108.746][FINER]:   Waiting for all views to stop loading...
+[108.746][FINER]:   Done waiting for all views to stop loading
+[108.746][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.748][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.748][FINER]:   Waiting for all views to stop loading...
+[108.749][FINER]:   Done waiting for all views to stop loading
+[108.751][FINER]:   Waiting for all views to stop loading...
+[108.751][FINER]:   Done waiting for all views to stop loading
+[108.751][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.752][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.752][FINER]:   Waiting for all views to stop loading...
+[108.752][FINER]:   Done waiting for all views to stop loading
+[108.753][FINER]:   Waiting for all views to stop loading...
+[108.753][FINER]:   Done waiting for all views to stop loading
+[108.753][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.754][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.754][FINER]:   Waiting for all views to stop loading...
+[108.754][FINER]:   Done waiting for all views to stop loading
+[108.755][FINER]:   Waiting for all views to stop loading...
+[108.755][FINER]:   Done waiting for all views to stop loading
+[108.755][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.755][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.755][FINER]:   Waiting for all views to stop loading...
+[108.755][FINER]:   Done waiting for all views to stop loading
+[108.756][FINER]:   Waiting for all views to stop loading...
+[108.757][FINER]:   Done waiting for all views to stop loading
+[108.757][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.757][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.757][FINER]:   Waiting for all views to stop loading...
+[108.757][FINER]:   Done waiting for all views to stop loading
+[108.760][FINER]:   Waiting for all views to stop loading...
+[108.760][FINER]:   Done waiting for all views to stop loading
+[108.761][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.762][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.762][FINER]:   Waiting for all views to stop loading...
+[108.763][FINER]:   Done waiting for all views to stop loading
+[108.764][FINER]:   Waiting for all views to stop loading...
+[108.764][FINER]:   Done waiting for all views to stop loading
+[108.764][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.765][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.765][FINER]:   Waiting for all views to stop loading...
+[108.765][FINER]:   Done waiting for all views to stop loading
+[108.766][FINER]:   Waiting for all views to stop loading...
+[108.766][FINER]:   Done waiting for all views to stop loading
+[108.766][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.767][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.767][FINER]:   Waiting for all views to stop loading...
+[108.767][FINER]:   Done waiting for all views to stop loading
+[108.768][FINER]:   Waiting for all views to stop loading...
+[108.768][FINER]:   Done waiting for all views to stop loading
+[108.768][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.769][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.769][FINER]:   Waiting for all views to stop loading...
+[108.769][FINER]:   Done waiting for all views to stop loading
+[108.770][FINER]:   Waiting for all views to stop loading...
+[108.770][FINER]:   Done waiting for all views to stop loading
+[108.770][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.771][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[108.771][FINER]:   Waiting for all views to stop loading...
+[108.771][FINER]:   Done waiting for all views to stop loading
+[108.772][FINER]:   Waiting for all views to stop loading...
+[108.772][FINER]:   Done waiting for all views to stop loading
+[108.772][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlApplicationApproved.aspx"
+}
+
+[108.774][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/timeouts/implicit_wait) with params {
+   "ms": 360000.0
+}
+
+[108.774][FINER]:   Waiting for all views to stop loading...
+[108.774][FINER]:   Done waiting for all views to stop loading
+[108.774][FINER]:   Waiting for all views to stop loading...
+[108.774][FINER]:   Done waiting for all views to stop loading
+[108.774][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/timeouts/implicit_wait) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[108.775][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/execute) with params {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[108.775][FINER]:   Waiting for all views to stop loading...
+[108.775][FINER]:   Done waiting for all views to stop loading
+[108.778][FINER]:   Waiting for all views to stop loading...
+[108.778][FINER]:   Done waiting for all views to stop loading
+[108.778][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/execute) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "complete"
+}
+
+[108.779][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_btnContinue"
+}
+
+[108.779][FINER]:   Waiting for all views to stop loading...
+[108.780][FINER]:   Done waiting for all views to stop loading
+[108.793][FINER]:   Waiting for all views to stop loading...
+[108.793][FINER]:   Done waiting for all views to stop loading
+[108.793][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429856516"
+   }
+}
+
+[108.794][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429856516/click)
+[108.794][FINER]:   Waiting for all views to stop loading...
+[108.795][FINER]:   Done waiting for all views to stop loading
+[108.924][FINER]:   Waiting for all views to stop loading...
+[126.992][FINER]:   Done waiting for all views to stop loading
+[126.993][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429856516/click) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[127.000][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[127.000][FINER]:   Waiting for all views to stop loading...
+[127.008][FINER]:   Done waiting for all views to stop loading
+[127.017][FINER]:   Waiting for all views to stop loading...
+[127.017][FINER]:   Done waiting for all views to stop loading
+[127.017][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=7&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639460.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431720|PC#1360429755217-112316.17_45#1361639460|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429868521-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431668.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431668.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196268.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429868528'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[127.019][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.019][FINER]:   Waiting for all views to stop loading...
+[127.019][FINER]:   Done waiting for all views to stop loading
+[127.021][FINER]:   Waiting for all views to stop loading...
+[127.022][FINER]:   Done waiting for all views to stop loading
+[127.022][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.023][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.023][FINER]:   Waiting for all views to stop loading...
+[127.023][FINER]:   Done waiting for all views to stop loading
+[127.025][FINER]:   Waiting for all views to stop loading...
+[127.025][FINER]:   Done waiting for all views to stop loading
+[127.025][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.025][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.025][FINER]:   Waiting for all views to stop loading...
+[127.026][FINER]:   Done waiting for all views to stop loading
+[127.027][FINER]:   Waiting for all views to stop loading...
+[127.027][FINER]:   Done waiting for all views to stop loading
+[127.027][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.028][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.028][FINER]:   Waiting for all views to stop loading...
+[127.028][FINER]:   Done waiting for all views to stop loading
+[127.030][FINER]:   Waiting for all views to stop loading...
+[127.030][FINER]:   Done waiting for all views to stop loading
+[127.030][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.030][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.030][FINER]:   Waiting for all views to stop loading...
+[127.031][FINER]:   Done waiting for all views to stop loading
+[127.032][FINER]:   Waiting for all views to stop loading...
+[127.032][FINER]:   Done waiting for all views to stop loading
+[127.032][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.033][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.033][FINER]:   Waiting for all views to stop loading...
+[127.033][FINER]:   Done waiting for all views to stop loading
+[127.035][FINER]:   Waiting for all views to stop loading...
+[127.035][FINER]:   Done waiting for all views to stop loading
+[127.035][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.036][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.036][FINER]:   Waiting for all views to stop loading...
+[127.036][FINER]:   Done waiting for all views to stop loading
+[127.038][FINER]:   Waiting for all views to stop loading...
+[127.038][FINER]:   Done waiting for all views to stop loading
+[127.038][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.039][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.039][FINER]:   Waiting for all views to stop loading...
+[127.039][FINER]:   Done waiting for all views to stop loading
+[127.040][FINER]:   Waiting for all views to stop loading...
+[127.041][FINER]:   Done waiting for all views to stop loading
+[127.041][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.041][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.041][FINER]:   Waiting for all views to stop loading...
+[127.041][FINER]:   Done waiting for all views to stop loading
+[127.042][FINER]:   Waiting for all views to stop loading...
+[127.043][FINER]:   Done waiting for all views to stop loading
+[127.043][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.043][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.043][FINER]:   Waiting for all views to stop loading...
+[127.043][FINER]:   Done waiting for all views to stop loading
+[127.044][FINER]:   Waiting for all views to stop loading...
+[127.044][FINER]:   Done waiting for all views to stop loading
+[127.044][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.045][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.045][FINER]:   Waiting for all views to stop loading...
+[127.045][FINER]:   Done waiting for all views to stop loading
+[127.046][FINER]:   Waiting for all views to stop loading...
+[127.046][FINER]:   Done waiting for all views to stop loading
+[127.046][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.047][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.047][FINER]:   Waiting for all views to stop loading...
+[127.047][FINER]:   Done waiting for all views to stop loading
+[127.048][FINER]:   Waiting for all views to stop loading...
+[127.048][FINER]:   Done waiting for all views to stop loading
+[127.048][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.048][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.048][FINER]:   Waiting for all views to stop loading...
+[127.049][FINER]:   Done waiting for all views to stop loading
+[127.050][FINER]:   Waiting for all views to stop loading...
+[127.050][FINER]:   Done waiting for all views to stop loading
+[127.050][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.069][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[127.069][FINER]:   Waiting for all views to stop loading...
+[127.070][FINER]:   Done waiting for all views to stop loading
+[127.086][FINER]:   Waiting for all views to stop loading...
+[127.086][FINER]:   Done waiting for all views to stop loading
+[127.087][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=7&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639460.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431720|PC#1360429755217-112316.17_45#1361639460|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429868521-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431668.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431668.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196268.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429868528'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[127.088][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.088][FINER]:   Waiting for all views to stop loading...
+[127.089][FINER]:   Done waiting for all views to stop loading
+[127.092][FINER]:   Waiting for all views to stop loading...
+[127.092][FINER]:   Done waiting for all views to stop loading
+[127.092][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.093][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.093][FINER]:   Waiting for all views to stop loading...
+[127.094][FINER]:   Done waiting for all views to stop loading
+[127.095][FINER]:   Waiting for all views to stop loading...
+[127.095][FINER]:   Done waiting for all views to stop loading
+[127.095][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.096][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.096][FINER]:   Waiting for all views to stop loading...
+[127.096][FINER]:   Done waiting for all views to stop loading
+[127.098][FINER]:   Waiting for all views to stop loading...
+[127.098][FINER]:   Done waiting for all views to stop loading
+[127.098][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.099][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.099][FINER]:   Waiting for all views to stop loading...
+[127.100][FINER]:   Done waiting for all views to stop loading
+[127.102][FINER]:   Waiting for all views to stop loading...
+[127.102][FINER]:   Done waiting for all views to stop loading
+[127.102][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.103][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.103][FINER]:   Waiting for all views to stop loading...
+[127.103][FINER]:   Done waiting for all views to stop loading
+[127.105][FINER]:   Waiting for all views to stop loading...
+[127.105][FINER]:   Done waiting for all views to stop loading
+[127.105][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.106][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.106][FINER]:   Waiting for all views to stop loading...
+[127.107][FINER]:   Done waiting for all views to stop loading
+[127.108][FINER]:   Waiting for all views to stop loading...
+[127.108][FINER]:   Done waiting for all views to stop loading
+[127.108][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.109][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.109][FINER]:   Waiting for all views to stop loading...
+[127.109][FINER]:   Done waiting for all views to stop loading
+[127.111][FINER]:   Waiting for all views to stop loading...
+[127.111][FINER]:   Done waiting for all views to stop loading
+[127.111][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.112][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.112][FINER]:   Waiting for all views to stop loading...
+[127.112][FINER]:   Done waiting for all views to stop loading
+[127.113][FINER]:   Waiting for all views to stop loading...
+[127.113][FINER]:   Done waiting for all views to stop loading
+[127.113][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.114][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.114][FINER]:   Waiting for all views to stop loading...
+[127.114][FINER]:   Done waiting for all views to stop loading
+[127.115][FINER]:   Waiting for all views to stop loading...
+[127.116][FINER]:   Done waiting for all views to stop loading
+[127.116][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.117][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.117][FINER]:   Waiting for all views to stop loading...
+[127.117][FINER]:   Done waiting for all views to stop loading
+[127.118][FINER]:   Waiting for all views to stop loading...
+[127.118][FINER]:   Done waiting for all views to stop loading
+[127.118][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.120][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.120][FINER]:   Waiting for all views to stop loading...
+[127.120][FINER]:   Done waiting for all views to stop loading
+[127.122][FINER]:   Waiting for all views to stop loading...
+[127.122][FINER]:   Done waiting for all views to stop loading
+[127.122][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.123][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.123][FINER]:   Waiting for all views to stop loading...
+[127.123][FINER]:   Done waiting for all views to stop loading
+[127.125][FINER]:   Waiting for all views to stop loading...
+[127.125][FINER]:   Done waiting for all views to stop loading
+[127.125][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.126][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[127.126][FINER]:   Waiting for all views to stop loading...
+[127.126][FINER]:   Done waiting for all views to stop loading
+[127.127][FINER]:   Waiting for all views to stop loading...
+[127.127][FINER]:   Done waiting for all views to stop loading
+[127.127][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/pdlIntermediate.aspx"
+}
+
+[127.129][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/execute) with params {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[127.129][FINER]:   Waiting for all views to stop loading...
+[127.129][FINER]:   Done waiting for all views to stop loading
+[127.132][FINER]:   Waiting for all views to stop loading...
+[127.132][FINER]:   Done waiting for all views to stop loading
+[127.132][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/execute) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "complete"
+}
+
+[127.133][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_eSignDocWizard1_RadioButtonList1_0"
+}
+
+[127.133][FINER]:   Waiting for all views to stop loading...
+[127.133][FINER]:   Done waiting for all views to stop loading
+[155.462][FINER]:   Waiting for all views to stop loading...
+[156.853][FINER]:   Done waiting for all views to stop loading
+[156.853][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429903185"
+   }
+}
+
+[156.855][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429903185/click)
+[156.855][FINER]:   Waiting for all views to stop loading...
+[156.855][FINER]:   Done waiting for all views to stop loading
+[156.899][FINER]:   Waiting for all views to stop loading...
+[156.899][FINER]:   Done waiting for all views to stop loading
+[156.899][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429903185/click) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[156.902][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/execute) with params {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+
+[156.902][FINER]:   Waiting for all views to stop loading...
+[156.902][FINER]:   Done waiting for all views to stop loading
+[156.905][FINER]:   Waiting for all views to stop loading...
+[156.905][FINER]:   Done waiting for all views to stop loading
+[156.905][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/execute) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "complete"
+}
+
+[156.906][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_eSignDocWizard1_btnContinueDocument"
+}
+
+[156.906][FINER]:   Waiting for all views to stop loading...
+[156.907][FINER]:   Done waiting for all views to stop loading
+[156.920][FINER]:   Waiting for all views to stop loading...
+[156.920][FINER]:   Done waiting for all views to stop loading
+[156.920][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429903186"
+   }
+}
+
+[156.921][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429903186/click)
+[156.921][FINER]:   Waiting for all views to stop loading...
+[156.921][FINER]:   Done waiting for all views to stop loading
+[156.957][FINER]:   Waiting for all views to stop loading...
+[160.896][FINER]:   Done waiting for all views to stop loading
+[160.896][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429903186/click) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[160.901][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[160.901][FINER]:   Waiting for all views to stop loading...
+[160.905][FINER]:   Done waiting for all views to stop loading
+[160.912][FINER]:   Waiting for all views to stop loading...
+[160.912][FINER]:   Done waiting for all views to stop loading
+[160.912][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=11&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639507.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431767|PC#1360429755217-112316.17_45#1361639507|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429906981-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431706.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431706.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196306.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429906987'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[160.913][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.913][FINER]:   Waiting for all views to stop loading...
+[160.913][FINER]:   Done waiting for all views to stop loading
+[160.914][FINER]:   Waiting for all views to stop loading...
+[160.914][FINER]:   Done waiting for all views to stop loading
+[160.914][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.915][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.915][FINER]:   Waiting for all views to stop loading...
+[160.915][FINER]:   Done waiting for all views to stop loading
+[160.916][FINER]:   Waiting for all views to stop loading...
+[160.916][FINER]:   Done waiting for all views to stop loading
+[160.916][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.917][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.917][FINER]:   Waiting for all views to stop loading...
+[160.917][FINER]:   Done waiting for all views to stop loading
+[160.918][FINER]:   Waiting for all views to stop loading...
+[160.919][FINER]:   Done waiting for all views to stop loading
+[160.919][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.919][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.919][FINER]:   Waiting for all views to stop loading...
+[160.920][FINER]:   Done waiting for all views to stop loading
+[160.921][FINER]:   Waiting for all views to stop loading...
+[160.921][FINER]:   Done waiting for all views to stop loading
+[160.921][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.922][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.922][FINER]:   Waiting for all views to stop loading...
+[160.922][FINER]:   Done waiting for all views to stop loading
+[160.924][FINER]:   Waiting for all views to stop loading...
+[160.924][FINER]:   Done waiting for all views to stop loading
+[160.924][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.925][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.925][FINER]:   Waiting for all views to stop loading...
+[160.925][FINER]:   Done waiting for all views to stop loading
+[160.926][FINER]:   Waiting for all views to stop loading...
+[160.926][FINER]:   Done waiting for all views to stop loading
+[160.926][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.927][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.927][FINER]:   Waiting for all views to stop loading...
+[160.927][FINER]:   Done waiting for all views to stop loading
+[160.928][FINER]:   Waiting for all views to stop loading...
+[160.928][FINER]:   Done waiting for all views to stop loading
+[160.928][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.928][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.928][FINER]:   Waiting for all views to stop loading...
+[160.929][FINER]:   Done waiting for all views to stop loading
+[160.930][FINER]:   Waiting for all views to stop loading...
+[160.930][FINER]:   Done waiting for all views to stop loading
+[160.930][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.931][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.931][FINER]:   Waiting for all views to stop loading...
+[160.931][FINER]:   Done waiting for all views to stop loading
+[160.932][FINER]:   Waiting for all views to stop loading...
+[160.932][FINER]:   Done waiting for all views to stop loading
+[160.932][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.933][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.933][FINER]:   Waiting for all views to stop loading...
+[160.933][FINER]:   Done waiting for all views to stop loading
+[160.934][FINER]:   Waiting for all views to stop loading...
+[160.934][FINER]:   Done waiting for all views to stop loading
+[160.934][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.935][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.935][FINER]:   Waiting for all views to stop loading...
+[160.935][FINER]:   Done waiting for all views to stop loading
+[160.936][FINER]:   Waiting for all views to stop loading...
+[160.936][FINER]:   Done waiting for all views to stop loading
+[160.936][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.936][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.936][FINER]:   Waiting for all views to stop loading...
+[160.937][FINER]:   Done waiting for all views to stop loading
+[160.938][FINER]:   Waiting for all views to stop loading...
+[160.938][FINER]:   Done waiting for all views to stop loading
+[160.938][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.938][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.938][FINER]:   Waiting for all views to stop loading...
+[160.938][FINER]:   Done waiting for all views to stop loading
+[160.939][FINER]:   Waiting for all views to stop loading...
+[160.940][FINER]:   Done waiting for all views to stop loading
+[160.940][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.941][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[160.941][FINER]:   Waiting for all views to stop loading...
+[160.941][FINER]:   Done waiting for all views to stop loading
+[160.943][FINER]:   Waiting for all views to stop loading...
+[160.943][FINER]:   Done waiting for all views to stop loading
+[160.944][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=11&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639507.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431767|PC#1360429755217-112316.17_45#1361639507|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429906981-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431706.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431706.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196306.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429906987'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[160.945][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.945][FINER]:   Waiting for all views to stop loading...
+[160.945][FINER]:   Done waiting for all views to stop loading
+[160.946][FINER]:   Waiting for all views to stop loading...
+[160.946][FINER]:   Done waiting for all views to stop loading
+[160.946][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.946][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.946][FINER]:   Waiting for all views to stop loading...
+[160.947][FINER]:   Done waiting for all views to stop loading
+[160.948][FINER]:   Waiting for all views to stop loading...
+[160.948][FINER]:   Done waiting for all views to stop loading
+[160.948][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.948][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.948][FINER]:   Waiting for all views to stop loading...
+[160.948][FINER]:   Done waiting for all views to stop loading
+[160.949][FINER]:   Waiting for all views to stop loading...
+[160.950][FINER]:   Done waiting for all views to stop loading
+[160.950][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.950][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.950][FINER]:   Waiting for all views to stop loading...
+[160.950][FINER]:   Done waiting for all views to stop loading
+[160.951][FINER]:   Waiting for all views to stop loading...
+[160.951][FINER]:   Done waiting for all views to stop loading
+[160.951][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.952][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.952][FINER]:   Waiting for all views to stop loading...
+[160.952][FINER]:   Done waiting for all views to stop loading
+[160.953][FINER]:   Waiting for all views to stop loading...
+[160.953][FINER]:   Done waiting for all views to stop loading
+[160.953][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.954][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.954][FINER]:   Waiting for all views to stop loading...
+[160.954][FINER]:   Done waiting for all views to stop loading
+[160.955][FINER]:   Waiting for all views to stop loading...
+[160.955][FINER]:   Done waiting for all views to stop loading
+[160.955][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.955][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.955][FINER]:   Waiting for all views to stop loading...
+[160.956][FINER]:   Done waiting for all views to stop loading
+[160.957][FINER]:   Waiting for all views to stop loading...
+[160.957][FINER]:   Done waiting for all views to stop loading
+[160.957][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.957][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.957][FINER]:   Waiting for all views to stop loading...
+[160.957][FINER]:   Done waiting for all views to stop loading
+[160.958][FINER]:   Waiting for all views to stop loading...
+[160.958][FINER]:   Done waiting for all views to stop loading
+[160.958][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.959][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.959][FINER]:   Waiting for all views to stop loading...
+[160.959][FINER]:   Done waiting for all views to stop loading
+[160.960][FINER]:   Waiting for all views to stop loading...
+[160.960][FINER]:   Done waiting for all views to stop loading
+[160.960][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.961][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.961][FINER]:   Waiting for all views to stop loading...
+[160.961][FINER]:   Done waiting for all views to stop loading
+[160.962][FINER]:   Waiting for all views to stop loading...
+[160.962][FINER]:   Done waiting for all views to stop loading
+[160.962][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.962][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.962][FINER]:   Waiting for all views to stop loading...
+[160.963][FINER]:   Done waiting for all views to stop loading
+[160.964][FINER]:   Waiting for all views to stop loading...
+[160.964][FINER]:   Done waiting for all views to stop loading
+[160.964][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.964][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.964][FINER]:   Waiting for all views to stop loading...
+[160.964][FINER]:   Done waiting for all views to stop loading
+[160.965][FINER]:   Waiting for all views to stop loading...
+[160.965][FINER]:   Done waiting for all views to stop loading
+[160.965][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[160.966][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[160.966][FINER]:   Waiting for all views to stop loading...
+[160.966][FINER]:   Done waiting for all views to stop loading
+[160.967][FINER]:   Waiting for all views to stop loading...
+[160.967][FINER]:   Done waiting for all views to stop loading
+[160.968][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.022][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_pnlThankyouNewLoan"
+}
+
+[161.022][FINER]:   Waiting for all views to stop loading...
+[161.023][FINER]:   Done waiting for all views to stop loading
+[161.072][FINER]:   Waiting for all views to stop loading...
+[161.073][FINER]:   Done waiting for all views to stop loading
+[161.073][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908787"
+   }
+}
+
+[161.074][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908787/element) with params {
+   "using": "class name",
+   "value": "eightcol"
+}
+
+[161.074][FINER]:   Waiting for all views to stop loading...
+[161.074][FINER]:   Done waiting for all views to stop loading
+[161.086][FINER]:   Waiting for all views to stop loading...
+[161.087][FINER]:   Done waiting for all views to stop loading
+[161.087][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908787/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908788"
+   }
+}
+
+[161.087][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908788/element) with params {
+   "using": "tag name",
+   "value": "h3"
+}
+
+[161.087][FINER]:   Waiting for all views to stop loading...
+[161.088][FINER]:   Done waiting for all views to stop loading
+[161.100][FINER]:   Waiting for all views to stop loading...
+[161.100][FINER]:   Done waiting for all views to stop loading
+[161.100][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908788/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908789"
+   }
+}
+
+[161.101][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908789/text)
+[161.101][FINER]:   Waiting for all views to stop loading...
+[161.101][FINER]:   Done waiting for all views to stop loading
+[161.131][FINER]:   Waiting for all views to stop loading...
+[161.131][FINER]:   Done waiting for all views to stop loading
+[161.131][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908789/text) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "Thank You. We have received your loan application."
+}
+
+[161.134][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_pnlThankyouNewLoan"
+}
+
+[161.134][FINER]:   Waiting for all views to stop loading...
+[161.134][FINER]:   Done waiting for all views to stop loading
+[161.139][FINER]:   Waiting for all views to stop loading...
+[161.140][FINER]:   Done waiting for all views to stop loading
+[161.140][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908787"
+   }
+}
+
+[161.141][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908787/element) with params {
+   "using": "class name",
+   "value": "eightcol"
+}
+
+[161.141][FINER]:   Waiting for all views to stop loading...
+[161.141][FINER]:   Done waiting for all views to stop loading
+[161.146][FINER]:   Waiting for all views to stop loading...
+[161.146][FINER]:   Done waiting for all views to stop loading
+[161.146][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908787/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908788"
+   }
+}
+
+[161.147][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908788/element) with params {
+   "using": "id",
+   "value": "ctl00_PrimaryContent_pnlDocumentNeeded"
+}
+
+[161.147][FINER]:   Waiting for all views to stop loading...
+[161.147][FINER]:   Done waiting for all views to stop loading
+[161.159][FINER]:   Waiting for all views to stop loading...
+[161.159][FINER]:   Done waiting for all views to stop loading
+[161.159][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908788/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908790"
+   }
+}
+
+[161.160][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908790/element) with params {
+   "using": "class name",
+   "value": "prompt_msg_box"
+}
+
+[161.160][FINER]:   Waiting for all views to stop loading...
+[161.160][FINER]:   Done waiting for all views to stop loading
+[161.172][FINER]:   Waiting for all views to stop loading...
+[161.172][FINER]:   Done waiting for all views to stop loading
+[161.172][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908790/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908791"
+   }
+}
+
+[161.173][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908791/text)
+[161.173][FINER]:   Waiting for all views to stop loading...
+[161.173][FINER]:   Done waiting for all views to stop loading
+[161.206][FINER]:   Waiting for all views to stop loading...
+[161.206][FINER]:   Done waiting for all views to stop loading
+[161.206][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908791/text) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "Your application for Installment Loan #14580838 is incomplete.\nIn order for us to begin processin..."
+}
+
+[161.207][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908791/text)
+[161.207][FINER]:   Waiting for all views to stop loading...
+[161.207][FINER]:   Done waiting for all views to stop loading
+[161.222][FINER]:   Waiting for all views to stop loading...
+[161.223][FINER]:   Done waiting for all views to stop loading
+[161.223][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908791/text) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "Your application for Installment Loan #14580838 is incomplete.\nIn order for us to begin processin..."
+}
+
+[161.225][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/screenshot)
+[161.225][FINER]:   Waiting for all views to stop loading...
+[161.225][FINER]:   Done waiting for all views to stop loading
+[161.532][FINER]:   Waiting for all views to stop loading...
+[161.535][FINER]:   Done waiting for all views to stop loading
+[161.535][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/screenshot) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "iVBORw0KGgoAAAANSUhEUgAAA/kAAAbzCAIAAAAxhHSaAAAgAElEQVR4nOzdebhkV1kv/u/7rrX23lV1pu6kp/SQpDs9kDmBM..."
+}
+
+[161.662][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/cookie)
+[161.662][FINER]:   Waiting for all views to stop loading...
+[161.663][FINER]:   Done waiting for all views to stop loading
+[161.664][FINER]:   Waiting for all views to stop loading...
+[161.664][FINER]:   Done waiting for all views to stop loading
+[161.665][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/cookie) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": [ {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "secure": false,
+      "value": "likq5i45gqopo255u1f5cj45"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1423501750.0,
+      "http_only": false,
+      "name": "CNG[ebgdev03:81]",
+      "path": "/",
+      "secure": false,
+      "value": "8c480af4-6ad3-4160-941d-5e6f4d98d911"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1362114000.0,
+      "http_only": false,
+      "name": "s_vnum",
+      "path": "/",
+      "secure": false,
+      "value": "1362114000671%26vn%3D1"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "ttc",
+      "path": "/",
+      "secure": false,
+      "value": "1360429762673"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": true,
+      "name": "cng",
+      "path": "/",
+      "secure": false,
+      "value": "7F848D2481F9AAB041D549BFAD237CDB39F17D3753E6CAA694CFF574950264B05C7FD7727DDA02A8EE4981C23DCF6F412..."
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 253402300799.0,
+      "http_only": false,
+      "name": "CngUVT",
+      "path": "/",
+      "secure": false,
+      "value": "FV=2013-02-09T12:09:44&VC=11&RF=http://ebgdev03:81/pdlApplication.aspx"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1361639507.0,
+      "http_only": false,
+      "name": "mbox",
+      "path": "/",
+      "secure": false,
+      "value": "session#1360429755217-112316#1360431767|PC#1360429755217-112316.17_45#1361639507|check#true#13604..."
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_cc",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_nr",
+      "path": "/",
+      "secure": false,
+      "value": "1360429906981-New"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431706.0,
+      "http_only": false,
+      "name": "s_invisit",
+      "path": "/",
+      "secure": false,
+      "value": "true"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1360431706.0,
+      "http_only": false,
+      "name": "undefined_s",
+      "path": "/",
+      "secure": false,
+      "value": "First%20Visit"
+   }, {
+      "domain": "ebgdev03",
+      "expiry": 1518196306.0,
+      "http_only": false,
+      "name": "s_campaigncvp",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5B'1'%2C'1360429906987'%5D%5D"
+   }, {
+      "domain": "ebgdev03",
+      "http_only": false,
+      "name": "s_sq",
+      "path": "/",
+      "secure": false,
+      "value": "%5B%5BB%5D%5D"
+   } ]
+}
+
+[161.665][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.665][FINER]:   Waiting for all views to stop loading...
+[161.665][FINER]:   Done waiting for all views to stop loading
+[161.667][FINER]:   Waiting for all views to stop loading...
+[161.667][FINER]:   Done waiting for all views to stop loading
+[161.667][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.667][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.667][FINER]:   Waiting for all views to stop loading...
+[161.667][FINER]:   Done waiting for all views to stop loading
+[161.669][FINER]:   Waiting for all views to stop loading...
+[161.670][FINER]:   Done waiting for all views to stop loading
+[161.670][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.671][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.671][FINER]:   Waiting for all views to stop loading...
+[161.671][FINER]:   Done waiting for all views to stop loading
+[161.673][FINER]:   Waiting for all views to stop loading...
+[161.673][FINER]:   Done waiting for all views to stop loading
+[161.673][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.674][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.674][FINER]:   Waiting for all views to stop loading...
+[161.674][FINER]:   Done waiting for all views to stop loading
+[161.675][FINER]:   Waiting for all views to stop loading...
+[161.675][FINER]:   Done waiting for all views to stop loading
+[161.675][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.677][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.677][FINER]:   Waiting for all views to stop loading...
+[161.677][FINER]:   Done waiting for all views to stop loading
+[161.679][FINER]:   Waiting for all views to stop loading...
+[161.679][FINER]:   Done waiting for all views to stop loading
+[161.679][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.680][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.680][FINER]:   Waiting for all views to stop loading...
+[161.680][FINER]:   Done waiting for all views to stop loading
+[161.681][FINER]:   Waiting for all views to stop loading...
+[161.681][FINER]:   Done waiting for all views to stop loading
+[161.681][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.682][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.682][FINER]:   Waiting for all views to stop loading...
+[161.682][FINER]:   Done waiting for all views to stop loading
+[161.683][FINER]:   Waiting for all views to stop loading...
+[161.683][FINER]:   Done waiting for all views to stop loading
+[161.683][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.683][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.683][FINER]:   Waiting for all views to stop loading...
+[161.684][FINER]:   Done waiting for all views to stop loading
+[161.685][FINER]:   Waiting for all views to stop loading...
+[161.685][FINER]:   Done waiting for all views to stop loading
+[161.685][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.686][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.686][FINER]:   Waiting for all views to stop loading...
+[161.686][FINER]:   Done waiting for all views to stop loading
+[161.687][FINER]:   Waiting for all views to stop loading...
+[161.687][FINER]:   Done waiting for all views to stop loading
+[161.687][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.689][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.689][FINER]:   Waiting for all views to stop loading...
+[161.690][FINER]:   Done waiting for all views to stop loading
+[161.691][FINER]:   Waiting for all views to stop loading...
+[161.691][FINER]:   Done waiting for all views to stop loading
+[161.691][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.693][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.693][FINER]:   Waiting for all views to stop loading...
+[161.693][FINER]:   Done waiting for all views to stop loading
+[161.694][FINER]:   Waiting for all views to stop loading...
+[161.694][FINER]:   Done waiting for all views to stop loading
+[161.694][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.695][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.695][FINER]:   Waiting for all views to stop loading...
+[161.695][FINER]:   Done waiting for all views to stop loading
+[161.696][FINER]:   Waiting for all views to stop loading...
+[161.696][FINER]:   Done waiting for all views to stop loading
+[161.696][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.697][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/url)
+[161.697][FINER]:   Waiting for all views to stop loading...
+[161.697][FINER]:   Done waiting for all views to stop loading
+[161.698][FINER]:   Waiting for all views to stop loading...
+[161.698][FINER]:   Done waiting for all views to stop loading
+[161.698][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/url) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": "http://ebgdev03:81/my-account/Redesign/ThankYouPage.aspx?thankucontent=Thanku"
+}
+
+[161.700][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element) with params {
+   "using": "id",
+   "value": "ctl00_MyAccountsDefaultTopNavigation1_lnklogout2"
+}
+
+[161.700][FINER]:   Waiting for all views to stop loading...
+[161.700][FINER]:   Done waiting for all views to stop loading
+[161.711][FINER]:   Waiting for all views to stop loading...
+[161.711][FINER]:   Done waiting for all views to stop loading
+[161.711][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1360429908792"
+   }
+}
+
+[161.711][FINE]:    Command received (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908792/click)
+[161.711][FINER]:   Waiting for all views to stop loading...
+[161.712][FINER]:   Done waiting for all views to stop loading
+[161.752][FINER]:   Waiting for all views to stop loading...
+[168.654][FINER]:   Done waiting for all views to stop loading
+[168.654][FINE]:    Command finished (/session/08fec1032279e1f8c0292bffe725f602/element/:wdc:1360429908792/click) with response {
+   "sessionId": "08fec1032279e1f8c0292bffe725f602",
+   "status": 0,
+   "value": {
+
+   }
+}
+

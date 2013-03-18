@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorApp", "MonitorApp.csproj", "{FFCBA888-6953-4813-AF63-0801FAACDDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorWeb", "..\MonitorWeb\MonitorWeb.csproj", "{CE8477C5-C18C-44BB-8872-6E6A98F49CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCBA888-6953-4813-AF63-0801FAACDDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8477C5-C18C-44BB-8872-6E6A98F49CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8477C5-C18C-44BB-8872-6E6A98F49CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8477C5-C18C-44BB-8872-6E6A98F49CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8477C5-C18C-44BB-8872-6E6A98F49CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
